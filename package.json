@@ -1,0 +1,38 @@
+{
+  "name": "load-data-on-demand-devextreme-tree-view-forked",
+  "description": "In those special cases when the built-in Virtual Mode fails, you can gain full control over data loading in the createChildren function.This function is called each time a user expands the TreeView node that has not been expanded before. In the createChildren function, you get data from a server or other sources and then form the collection of child nodes from this data.\n",
+  "dependencies": {
+    "whatwg-fetch": "2.0.4",
+    "rrule": "2.6.6",
+    "react-dom": "17.0.2",
+    "react": "17.0.2",
+    "prop-types": "15.7.2",
+    "luxon": "1.27.0",
+    "jszip": "3.6.0",
+    "inferno-hydrate": "7.4.8",
+    "inferno-extras": "7.4.8",
+    "inferno-dom": "1.0.7",
+    "inferno-create-element": "7.4.8",
+    "inferno-create-class": "7.4.8",
+    "inferno-compat": "7.4.8",
+    "inferno-clone-vnode": "7.4.8",
+    "inferno": "7.4.8",
+    "es6-object-assign": "1.1.0",
+    "devextreme-react": "21.1.3",
+    "devextreme-quill": "1.0.0",
+    "devextreme": "21.1.3",
+    "devexpress-gantt": "2.1.31",
+    "devexpress-diagram": "2.1.15",
+    "@devextreme/vdom": "1.2.1"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
